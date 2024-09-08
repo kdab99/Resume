@@ -1,0 +1,352 @@
+%-------------------------
+% Resume in Latex
+% Author: Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{array} % required for text wrapping in tables
+\usepackage{verbatim}
+\usepackage{graphicx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% \\sans-serif
+%\usepackage[sfdefault]{FiraSans}
+%\usepackage[sfdefault]{roboto}
+%\usepackage[sfdefault]{noto-sans}
+%\usepackage[default]{sourcesanspro}
+
+% serif
+%\usepackage{CormorantGaramond}
+ \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\footskip}{4.08003pt}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{0pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.95\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{2pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+ 
+
+
+\begin{center}
+{\Huge \scshape  \textbf{Kumardwij Bhatnagar (Kumar)}}
+\\[5pt]
+\begin{tabular}{c c c c}
+\faPhone\enspace \href{tel:4709292615} {(470)-929-2615} $|$ & \enspace\faEnvelope\enspace \color{blue}\href{mailto:kumardwij.bhatnagar@gmail.com} {kumardwij.bhatnagar@gmail.com} $|$ & \enspace\faLinkedinSquare\enspace\href{https://www.linkedin.com/in/kdbhatnagar/}{\color{blue}in/kdbhatnagar} %$|$ & \enspace\faHome\enspace {\textbf{Atlanta, GA}}
+\end{tabular}
+\end{center}
+
+\begin{flushleft}
+    {Cybersecurity professional with \textbf{3+ years of experience} in \textbf{Network Security, Data Privacy, Compliance, \& Penetration Testing}. Proven track record of enhancing infrastructure resilience \& conducting advanced security assessments. }
+\end{flushleft}
+
+%-----------Skills-----------
+
+\section{\textbf{Skills}}
+ \resumeSubHeadingListStart
+        \begin{comment}
+        \resumeSubItem{\textbf{Programming \& Scripting Languages:}}
+        {Python, C, C++, Bash, Powershell}{}
+        \resumeSubItem{\textbf{Frameworks:}}
+        {MITRE ATT\&CK, Cyber Killchain, ISO 27001/27701, NIST Cybersecurity Framework, EU GDPR, PCI-DSS }
+        \resumeSubItem{\textbf{Skills \& Tools:}}
+        {Information Security Risk Assessment, Web \& Android Application Penetration Testing, Data Privacy Impact Assessment, Digital Forensics, Cloud Security, OneTrust, BurpSuite, Acunetix, Nmap, Kali Linux, Git, Docker, Wireshark, Autopsy}
+    \end{comment}
+    \resumeSubItem{}
+     {\begin{table}
+    \centering
+
+
+    \begin{tabular}{>{\centering\arraybackslash}p{0.25\linewidth}>{\centering\arraybackslash}p{0.25\linewidth}>{\centering\arraybackslash}p{0.25\linewidth}>{\centering\arraybackslash}p{0.25\linewidth}} 
+         Programming Languages&  Frameworks&  Tools& Skills\\ 
+         Python, C, C++, Bash, Powershell&  MITRE ATT\&CK, Cyber Killchain, ISO 27001/27701, NIST Cybersecurity Framework, EU GDPR, PCI-DSS&  OneTrust, BurpSuite, Acunetix, Nmap, Kali Linux, Git, Docker, Wireshark, Autopsy& Information Security Risk Assessment, Web \& Android Application Penetration Testing, Data Privacy Impact Assessment, Digital Forensics, Cloud Security\\ 
+    \end{tabular}
+    
+    
+\end{table}}
+% Please add the following required packages to your document preamble:
+
+\begin{table}[]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.15\linewidth}>{\raggedright\arraybackslash}p{0.35\linewidth}>{\raggedright\arraybackslash}p{0.15\linewidth}>{\raggedright\arraybackslash}p{0.35\linewidth}}
+
+\multicolumn{1}{c}{\textbf{Programming languages}} &
+  \multicolumn{1}{c}{\textbf{Frameworks}} &
+  \multicolumn{1}{c}{\textbf{Tools}} &
+  \multicolumn{1}{c}{\textbf{Skills}} \\ 
+\textit{Python, C, C++, Bash, Powershell} &
+  \textit{MITRE ATT\&CK, Cyber Killchain, ISO 27001/27701, NIST Cybersecurity Framework, EU GDPR, PCI-DSS} &
+  \textit{OneTrust, BurpSuite, Acunetix, Nmap, Kali Linux, Git, Docker, Wireshark, Autopsy} &
+  \textit{Information Security Risk Assessment, Web \& Android Application Penetration Testing, Data Privacy Impact Assessment, Digital Forensics, Cloud Security}
+\end{tabular}
+}
+\end{table}
+
+ \resumeSubHeadingListEnd 
+
+
+
+
+    
+
+
+%-----------EDUCATION-----------
+\section{\textbf{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Georgia Institute of Technology}{Atlanta, Georgia}
+      {\textbf{Master} of Science in \textbf{Cybersecurity} | GPA: \textbf{3.9/4.0}}{May 2024}
+      %{\textit{Specialization in the Information Security (CS) track} }
+      {\footnotesize\textit{Relevant coursework:} Systems Security, Network Security, Incident Response, Malware Detection, Digital Forensics}
+      
+    \resumeSubheading
+      {Vellore Institute of Technology}{Vellore, India}
+      {\textbf{Bachelor} of Technology in \textbf{Computer Science} }{June 2020}
+      %{\textit{Specialization in Information Security}}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{\textbf{Experience}}
+  \resumeSubHeadingListStart
+
+%-------------------------------------------
+  \resumeSubheading
+      {PwC}{}
+      {Associate - Cybersecurity}{January 2020 - August 2022}
+      \resumeItemListStart
+        \resumeItem{}
+          {Elevated infrastructure resilience through comprehensive \textbf{Dynamic and Static Application Penetration Testing (DAST \& SAST)} for 300+ web and mobile applications (Android \& iOS) and Wi-Fi networks, serving leading FinTech firms in India.}
+       % \resumeItem{}
+          %{Performed Wi-Fi Penetration Testing in the headquarters of a large private bank and successfully spoofed 5+ access points (AP).}
+       %\resumeItem{}
+       %{Developed and assisted in enforcing the cloud security policy for a large life insurance company undergoing cloud migration.} 
+       \resumeItem{}
+       {Pioneered technical and functional \textbf{third-party vendor security assessments} for 10+ vendors for the Federal Government of India, focusing on digital payments through feature phones.  }
+        \resumeItem{}
+        {Conducted an exhaustive \textbf{technical assessment of 50+ technologies} within the Security Operations at India’s largest stock exchange.}
+        %\resumeItem{}
+        %{Evaluated 20+ processes and databases of a global insurance organization for compliance with Indian and European \textbf{Data Privacy} regulations, including \textbf{GDPR} and the Indian Personal Data Privacy Bill. }
+        %\resumeItem{}
+        %{Contributed to the IT and IT Security current state (as-is) assessment, Maturity assessment, and Target Operating Model (TOM) for a Government Ministry in the Middle East impacting 300+ schools in the country.}
+        %{Improved the information security posture of 300+ schools in the Middle East by conducting the IT \& IT Security current state assessment \& strategizing a Target Operating Model.}
+        %\resumeItem{}
+        %{Developed an Information Security Management System (ISMS) \& Information Technology Service Management Manual (ITSM) for 10+ clients in the air navigation, education, power transmission, \& utility sectors based on frameworks such as ISO/IEC: 27001, NIST CSF, \& ITIL v4.}
+        
+      \resumeItemListEnd
+  
+
+  
+
+%-------------------------------------------
+    \resumeSubheading
+      {Georgia Institute of Technology}{}
+    {Graduate Teaching Assistant} {August 2023 - Present}
+
+    \resumeItemListStart
+        \resumeItem{}
+        {Conducted \textbf{office hours, tested \& deployed projects} \& assisted in course preparation for 300+ undergrad \& grad students for class \textbf{CS 6035 - Introduction to Information Security} under \href{https://faculty.cc.gatech.edu/~genkin/}{Prof. Daniel Genkin}.}
+    \resumeItemListEnd 
+   %  \resumeSubheading
+     %{}{}
+    %{Graduate Student Assistant - Data Governance \& Discovery}{September 2022 - August 2023}
+      %\resumeItemListStart
+        %\resumeItem{}
+          %{Contributed to the establishment of the data governance practice in the enterprise systems of Georgia Tech.}
+        %\resumeItem{}
+        %{Contributed to implementing OneTrust's Privacy Management, Governance, Risk \& Compliance modules, resulting in enhanced data protection \& streamlined compliance processes \& reduced data processing time by 30\% %.} %Developed \& executed comprehensive implementation plans, overseeing the deployment of these modules across the organization, reducing data processing time by 30\%.}
+        %\resumeItem{}
+          %{Identified opportunities for data analysis in the data lake while working with the Business Intelligence, Data Privacy, and Cybersecurity teams.}
+        %\resumeItem{}
+         % {Investigated 50+ centralized data dashboards involving different data domains such as finance, admissions, academia, \& legacy data for data accuracy \& quality. }
+    %\resumeItemListEnd
+
+     
+%-------------------------------------------
+  
+%--------------------------------
+    \resumeSubheading
+          {BusPatrol}{}
+            {Information Security Intern}{May 2023 - August 2023}
+        \resumeItemListStart
+            \resumeItem{}
+            {Spearheaded the development of an advanced machine learning algorithm to analyze and categorize client contracts, achieving a 30\% increase in accuracy compared to previous manual methods. }
+            \resumeItem{}
+            {Conducted \textbf{penetration testing assessments} on 10+ internet-facing websites for the organization, engaging with software development \& QA teams for remediation.}
+            %\resumeItem{}
+            %{Strategically mapped the PII and PCI architectural data flows within the organization, pinpointing 10+ distinct privacy requirements crucial for the establishment of the Privacy department }
+        \resumeItemListEnd
+
+    
+%-------------------------------------------   
+        
+    \resumeSubHeadingListEnd    
+        
+    
+
+
+%-----------PROJECTS-----------
+\section{\textbf{Projects}}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Certis: Next-Gen Cloud Asset Management \& Threat Evaluation Framework} {\color{blue}[\href{https://doi.org/10.4236/jsea.2024.176026}{Publication}]}}{\textit{January 2024 -- Present}}
+          \resumeItemListStart
+            %\resumeItem{Built a tool called \textbf{CertSearch} to scan the target infrastructure and identify potentially malicious servers in a network.}
+            %\resumeItem{{Inculcated \textbf{scanning of SSL certificates}} in a target IPv4 range for keywords, also integrating with 4+ major cloud service providers such as \textbf{AWS, GCP, Azure, \& Oracle}.}
+            %\resumeItem{Enriched the \textbf{ fingerprinting} and initial \textbf{malicious behavior detection} through \textbf{server banner grabbing} and \color{blue} \href{https://github.com/salesforce/jarm}{JARM fingerprinting}, \color{black}thereby increasing detection capabilities in the CI/CD pipeline by 10\%.}
+            \resumeItem{Developed an advanced tool using Go that integrates SSL certificate parsing, cloud service provider scanning, and JARM fingerprinting, enabling scanning of 5+ major cloud platforms including \textbf{AWS, GCP, Azure, \& Oracle} and detection of 1000+ unique server fingerprints.}
+            \resumeItem{Implemented cross-layer malicious behavior identification capabilities, enhancing anomaly detection by 40\% across network layers and reducing false positives by 30\% through AI-based learning techniques.}
+            \resumeItemListEnd
+    
+  %---------------------------------------------------------------------------------------------------------------  
+    
+    %\resumeProjectHeading
+          %{\textbf{Evaluating Certificate Transparency for TLS Root Anchor Trust}}{\textit{January 2023 -- May 2023}}
+          %\resumeItemListStart
+           % \resumeItem{Researched Certificate Transparency (CT) logs, focusing on SSL/TLS certificate issuance delays.}
+           %\resumeItem{Utilized CertStream Python library to extract and analyze data from CT logs, calculating an average observed delay of 12,055 seconds. Advocated for potential reductions in CT logs’ maximum merge delay (MMD) for enhanced system security and reliability.}
+            %\resumeItem{Highlighted the need to potentially reduce CT logs' maximum merge delay (MMD) for improved system security and reliability.}
+            %\resumeItemListEnd
+
+%----------------------------------------------------------------------------------------------------------------
+      \resumeProjectHeading
+          {\textbf{Information Security Home Lab Projects}}{\textit{August 2022 -- Present}}
+          \resumeItemListStart
+            %\resumeItem{ Participated in \textbf{Capture-the-flag} (CTF) challenges, securing 10 flags for various \textbf{buffer overflow} vulnerabilities utilizing \textbf{binary exploitation} and \textbf{return-oriented programming (ROP)}.}
+            %\resumeItem{Successfully exploited the log4j vulnerability in a closed client-server environment.}
+            %\resumeItem{Analyzed 3 malware samples in different ecosystems - Windows, Linux, \& Android using the Cuckoo tool.}
+            %\resumeItem{Engineered a sophisticated 2-factor-based authentication mechanism for a custom application login procedure, encompassing user registration, password verification, and reset functionalities.}
+            \resumeItem{Exploited 3+ vulnerable websites for web-based attacks such as \textbf{SQL injection, CSRF, and XSS} using the \color{blue} \href{https://beefproject.com/}{Browser Exploitation Framework} (BeEF).}
+            %\resumeItem{Investigated the packet capture(pcap) files for malicious traffic for DDos, Botnet \& Web attacks using Snort rules. }
+            \resumeItem{Designed and implemented an \textbf{integrated host \& network-based Intrusion Detection System (IDS)} , proficiently identifying and \textbf{sandboxing malicious executables} across 3 hosts in the network using Snort, Bash \& Kernel programming.}
+            %\resumeItem{Analyzed the draft American Data Protection \& Privacy Act's (ADPPA) Duty of Loyalty to ascertain if it adequately protects US citizens' privacy online.}
+            %\resumeItem{Conducted a Privacy Impact Assessment of an EduTech mobile application, finding 3+ privacy areas of concern in their operations.}
+            \resumeItemListEnd
+          
+%-----------------------------------------------------------------------------------------------------------------------------    
+      %\resumeProjectHeading
+          %{\textbf{Comparing reliability of software in mobile operating systems}}{Jan 2018 -- May 2018}
+          %\resumeItemListStart
+            %\resumeItem{Conducted a comparative study on the open mobile OS (Android) with the closed mobile OS (iOS) systems based on Productivity, Processing power, Security, and frequency and cause of malfunctions}
+          %\resumeItemListEnd
+    
+    \resumeSubHeadingListEnd
+
+%---------------------------------------
+
+
+
+%-----------CERTIFICATIONS----------------------------
+%\section{Courses and Certifications}
+   % \resumeSubHeadingListStart
+    
+      %\resumeProjectHeading
+         % {\textbf{Network Security Expert Level 1 and 2 }{-- \textit{Fortinet}}}{May 2020 -- May 2022}
+    %\resumeProjectHeading
+       %   {\textbf{Certified Network Security Specialist} {-- \textit{ICSI, UK}}}{May 2020 -- Present}
+    %\resumeProjectHeading
+       %   {\textbf{AWS Cloud Practitioner} {-- \textit{AWS}}}{June 2020 -- Present}
+          
+    
+    
+    %\resumeSubHeadingListEnd
+
+
+%-----------ACHIEVEMENTS-----------
+%\section{Achievements}
+   % \begin{tabular}{ p{3cm} | p{15cm} } 
+    % \small{\textbf{Sports}} \hspace{2cm}   & \hspace{1cm} \textbf{Winner} - Sub-Junior State Judo Championship \\ 
+     %\small{\textbf{Theatre}}              & \hspace{1cm} \textbf{Winner} - Indywood National Talent Hunt, Actor, \& Director for 20+ plays \\
+     %\small{\textbf{Filmmaking}}            & \hspace{1cm} Remotely directed a short film during the COVID pandemic {\href{https://www.youtube.com/watch?v=_vjI3XiFEbA}{\color{blue}{Kashmakash}}}  
+    %\end{tabular}
+
+
+%-------------------------------------------
+
+\end{document}
